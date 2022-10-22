@@ -1,0 +1,32 @@
+.wrapper {
+    margin-bottom: 173px;
+}
+.feedback_block {
+    width: 100%;
+    background-color: #EBEBEB;
+    
+}
+.block_bottom {
+    display: flex;
+    gap: 35px;
+}
+.block_bottom > img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 95px;
+    margin-bottom: 45px;
+}
+
+.names {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+}
+.descr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 45px 95px 58px;
+}

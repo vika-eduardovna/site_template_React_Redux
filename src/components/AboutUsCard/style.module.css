@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .card_item {
+    background-color:#EBEBEB;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card_item:hover {
+    background-color: #005fa3;
+    color: white;
+  }
+  
+  .card_item:hover > button {
+    border-color: white;
+    color: #005fa3;
+  }
+  
+  .value {
+    font-size: 55px;
+  }
+  
+  .title {
+    font-size: 14px;
+    width: 107px;
+    margin: 30px 0;
+  }
+  
+  @media (max-width: 1055px){
+    .card_item {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .title {
+      margin: 0;
+    }
+  }

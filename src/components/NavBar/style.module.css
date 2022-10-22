@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.burger_menu {
+    display: none;
+}
+@media (max-width: 1055px) {
+    .burger_menu {
+        display: flex;
+        font-size: 30px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .wrapper button {
+        display: none;
+    }
+    .wrapper {
+        padding: 0 70px;
+    }
+}
