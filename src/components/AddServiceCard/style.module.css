@@ -1,0 +1,36 @@
+.form {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 24px;
+    padding: 45px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+.form > button {
+    background-color: #005FA3;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    color: white;
+    border: none;
+}
+
+.form > input {
+    margin-top: 54px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;   
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #747474;
+}

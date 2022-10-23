@@ -29,9 +29,4 @@ export const data = [
         img: 'https://premierbusinessclub.com/wp-content/uploads/2020/06/Business-Accounting-Services.jpg'
     },
 
-    {
-        id: 6,
-        title: 'Managment services',
-        img: 'https://premierbusinessclub.com/wp-content/uploads/2020/06/Business-Accounting-Services.jpg'
-    },
 ] 
