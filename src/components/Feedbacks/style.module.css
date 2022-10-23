@@ -1,5 +1,9 @@
 .wrapper {
     margin-bottom: 173px;
+    width: 1110px;
+}
+.h2 {
+    margin-bottom: 80px;
 }
 .feedback_block {
     width: 100%;
@@ -29,4 +33,33 @@
     font-size: 18px;
     line-height: 25px;
     padding: 45px 95px 58px;
+}
+.form {
+    display: flex;
+    
+    background-color: #EBEBEB;
+    min-height: 378px;
+    gap: 30px;
+}
+
+.data_style {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    padding-left: 25px;
+    padding-top: 33px;
+}
+.data_style input {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    
+}
+.text {
+    width: 709px;
+}
+textarea {
+    width: 709px;
+    height: 152px;
+    border: 2px solid #000000;
 }
