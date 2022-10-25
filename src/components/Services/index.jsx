@@ -6,6 +6,7 @@ import { useSelector } from 'react-redux'
 
 export default function Services() {
   const state = useSelector(state => state.services);
+  
   return (
     <section className={s.services}>
       <div className={['wrapper', s.wrapper].join(' ')}>
@@ -16,8 +17,10 @@ export default function Services() {
             state.map(el => <ServiceCard key={el.id} {...el} />)
           }
           <AddServiceCard />
+          
         </div>
       </div>
     </section>
   )
+ 
 }

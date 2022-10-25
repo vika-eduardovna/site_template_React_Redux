@@ -3,7 +3,7 @@ import s from './style.module.css'
 import Button from '../UI/Button'
 
 
-export default function AboutUsCard({ value, title, link_url }) {
+export default function AboutUsCard({ value, title}) {
   return (
     <div className={s.card_item}>
       <p className={s.value}>{value}</p>

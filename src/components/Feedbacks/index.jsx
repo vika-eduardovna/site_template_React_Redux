@@ -41,7 +41,7 @@ export default function Feedbacks() {
                         <div className={s.feedback_block}>
                             <p className={s.descr}>{item.description}</p>
                             <div className={s.block_bottom}>
-                                <img src={item.imageUrl} alt="" />
+                                <img src={item.imageUrl} alt='avatar' />
                                 <div className={s.person_data}>
                                     <p className={s.names}>{item.first_name} {item.last_name}</p>
                                     <p>{item.position}</p>
@@ -50,21 +50,17 @@ export default function Feedbacks() {
                         </div>
                     ))
                 }
-                <div className={s.form}>
-                    <form onSubmit={submit} >
-
-                        <div className={s.data_style}>
-                            <input type="text" name='first_name' placeholder='Your name' />
-                            <input type="text" name="position" placeholder='Position' />
-                            <input type="text" name='imageUrl' placeholder='Here your photo...' />
-                        </div>
-                        <div className={s.text}>
-                            <textarea name="description" placeholder='Write here your opinion...'></textarea>
-                            <button>Add review</button>
-                        </div>
-                    </form>
-                </div>
-
+                <form onSubmit={submit} className={s.form}>
+                    <div className={s.data_style}>
+                        <input type='text' name='first_name' placeholder='Your name' />
+                        <input type='text' name='position' placeholder='Position' />
+                        <input type='text' name='imageUrl' placeholder='Here your photo...' />
+                    </div>
+                    <div className={s.text}>
+                        <textarea name='description' placeholder='Write here your opinion...'></textarea>
+                        <button>Add review</button>
+                    </div>
+                </form>
             </Slider>
 
         </section>

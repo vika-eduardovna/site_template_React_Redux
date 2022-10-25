@@ -1,9 +1,12 @@
 import React from 'react'
-import { data } from './data'
+import { useSelector} from 'react-redux'
 import AboutUsCard from '../AboutUsCard'
 import s from './style.module.css'
 
 export default function AboutUs() {
+
+    const state = useSelector(state => state.data);
+    
     return (
         <section className={['wrapper', s.wrapper].join(' ')}>
             <div>
@@ -14,7 +17,7 @@ export default function AboutUs() {
 
             <div className={s.cards}>
                 {
-                    data.map(el => <AboutUsCard key={el.id} {...el} />)
+                    state.map(el => <AboutUsCard key={el.id} {...el} />)
                 }
             </div>
         </section>

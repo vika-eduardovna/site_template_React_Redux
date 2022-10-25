@@ -5,7 +5,7 @@ import Button from '../UI/Button'
 export default function ServiceCard({ title, img }) {
 
   const cardStyle = {
-    backgroundImage: `url(${img})`,
+    backgroundImage: `url('https://premierbusinessclub.com/wp-content/uploads/2020/06/Business-Accounting-Services.jpg')`,
     backgroundposition: 'center',
     backgroundSize: 'cover'
   }
